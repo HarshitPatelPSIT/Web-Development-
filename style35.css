@@ -1,0 +1,40 @@
+.box:first-child{
+    background-color: red;
+}
+.box::first-line{
+    color: aqua;
+}
+.boxes *{
+    color: blue;
+    border: 2px solid black;
+}
+p,a,.box,[data-color="primary"]{
+    margin-top: 45px;
+    padding: 25px;
+}
+.box:nth-child(even){
+    background-color: blueviolet;
+}
+.box:nth-last-child(2){
+    background-color: burlywood;
+}
+.boxes::before{
+    content: "Harshit is boy";
+    color: violet;
+}
+.boxes::after{
+    content: "Love to play cricket";
+    color: yellow;
+}
+::selection{
+    background-color: black;
+    color: chartreuse;
+}
+.box::first-letter{
+    color: palegreen;
+    font: 1em sans-serif;
+}
+input::placeholder{
+    color: slateblue;
+    font-weight: bold;
+}
