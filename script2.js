@@ -1,2 +1,2 @@
-alert("Hello Anushka")
-alert("I Love You")
+alert("Hello")
+alert("Can Love Me")
